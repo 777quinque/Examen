@@ -1,0 +1,120 @@
+<!-- activity_main.xml -->
+
+
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    android:rowCount="10"
+    android:useDefaultMargins="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constant"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <WebView
+            android:id="@+id/webView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/imageViewCar"
+        android:layout_width="299dp"
+        android:layout_height="174dp"
+        android:layout_row="9"
+        android:layout_columnSpan="2"
+        android:layout_gravity="center"
+        android:src="@drawable/car" />
+
+    <TextView
+        android:layout_row="0"
+        android:layout_columnSpan="2"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/brand_and_model"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextBrand"
+        android:layout_height="76dp"
+        android:layout_row="1"
+        android:layout_columnSpan="2"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:hint="@string/enter_brand_and_model" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="86dp"
+        android:layout_row="2"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/release_date"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextYear"
+        android:hint="@string/enter_release_date"
+        android:inputType="number"
+        android:digits="0123456789."
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_row="3"/>
+
+    <TextView
+        android:layout_height="98dp"
+        android:layout_row="4"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/engine_volume"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextEngineVolume"
+        android:inputType="number"
+        android:digits="0123456789."
+        android:hint="@string/enter_engine_volume"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_row="5"/>
+
+    <TextView
+        android:layout_height="80dp"
+        android:layout_row="6"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/dealer_email"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextDealerEmail"
+        android:hint="@string/enter_dealer_email"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_row="7"/>
+
+    <Button
+        android:id="@+id/languageButton"
+        android:layout_row="8"
+        android:layout_columnSpan="2"
+        android:layout_gravity="center"
+        android:backgroundTint="#3498db"
+        android:text="@string/change_language"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/searchButton"
+        android:layout_row="8"
+        android:layout_columnSpan="2"
+        android:layout_gravity="center"
+        android:backgroundTint="#F10707"
+        android:text="@string/search_on_internet" />
+
+</GridLayout>

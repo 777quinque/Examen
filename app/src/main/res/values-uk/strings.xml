@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Строки для основного интерфейса -->
+    <string name="brand_and_model">Бренд та модель</string>
+    <string name="enter_brand_and_model">Введіть бренд та модель</string>
+    <string name="release_date">Дата випуску</string>
+    <string name="enter_release_date">Введіть дату випуску</string>
+    <string name="engine_volume">Об\'єм двигуна</string>
+    <string name="enter_engine_volume">Введіть об\'єм двигуна</string>
+    <string name="dealer_email">Email дилера</string>
+    <string name="enter_dealer_email">Введіть email дилера</string>
+    <string name="change_language">Змінити мову</string>
+    <string name="search_on_internet">Шукати в Інтернеті</string>
+</resources>

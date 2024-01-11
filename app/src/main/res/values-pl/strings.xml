@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Строки для основного интерфейса -->
+    <string name="brand_and_model">Marka i model</string>
+    <string name="enter_brand_and_model">Wprowadź markę i model</string>
+    <string name="release_date">Data produkcji</string>
+    <string name="enter_release_date">Wprowadź datę produkcji</string>
+    <string name="engine_volume">Pojemność silnika</string>
+    <string name="enter_engine_volume">Wprowadź pojemność silnika</string>
+    <string name="dealer_email">Email dealera</string>
+    <string name="enter_dealer_email">Wprowadź e-mail dealera</string>
+    <string name="change_language">Zmień język</string>
+    <string name="search_on_internet">Szukaj w internecie</string>
+
+    <!-- Другие строки, если необходимо -->
+
+</resources>

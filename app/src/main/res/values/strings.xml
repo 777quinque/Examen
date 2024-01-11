@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name" translatable="false">Ekzamen</string>
+
+    <string name="brand_and_model">Марка и название модели</string>
+    <string name="enter_brand_and_model">Введите марку и название</string>
+    <string name="release_date">Дата выпуска</string>
+    <string name="enter_release_date">Введите дату выпуска</string>
+    <string name="engine_volume">Объем двигателя</string>
+    <string name="enter_engine_volume">Введите объем двигателя</string>
+    <string name="dealer_email">Email дилера</string>
+    <string name="enter_dealer_email">Введите email дилера</string>
+    <string name="change_language">Сменить язык</string>
+    <string name="search_on_internet">Искать в интернете</string>
+</resources>
